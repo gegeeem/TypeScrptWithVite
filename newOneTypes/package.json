@@ -2,7 +2,7 @@
   "name": "newonetypes",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,5 +11,8 @@
   "devDependencies": {
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.8"
   }
 }
