@@ -15,3 +15,9 @@ const employee: TypeB = {
   country: "Chile",
 };
 console.log(employee);
+function moja<G>(a: G): G {
+  console.log("typeof inputted value", typeof a);
+  return a;
+}
+moja<number>(54);
+moja<string>(employee.name);
