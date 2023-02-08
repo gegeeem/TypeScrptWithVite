@@ -6,7 +6,11 @@ function add2(value: string | number) {
   return value + 1;
 }
 
-const text = add2("string value");
+const text = add2("string value"); //hover function add2 and display ---->
+//function add<"string value" > (value:"string value"):string
 console.log("conditinal type--->", text);
 const num = add2(10);
 console.log("conditinal type--->", num);
+
+const text1 = add2<string>("be water");
+console.log("conditinal type--->", text1);
